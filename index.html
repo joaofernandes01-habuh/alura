@@ -41,7 +41,7 @@ font-weight: bold;
 <h2>Meu primeiro post</h2>
 <p class="artigo-autor">Por: DonutLeve</p>
 <p>I am god</p>
-<button>⭐ ?<span>0</span></button>
+<button>⭐ <span>0</span></button>
 </div>
 
 </main>
@@ -51,6 +51,8 @@ const botao = document.querySelector("button");
 botao.addEventListener("click", botaoClicado);
 fuction botaoClicado(){
 console.log("fui clicado")
+let texto = botao.querSelector("span");
+texto.textContent++;
 }
 </script>
 </html>
