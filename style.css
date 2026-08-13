@@ -19,6 +19,8 @@ display: flex;
 }
 article{
 display: flex;
+
+border: 1px solid rgb(255,0,0);
 }
 img{
 width: 80px;
