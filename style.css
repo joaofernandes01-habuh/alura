@@ -29,11 +29,6 @@ gap: 16px;
 padding: 16px;
 
 flex: 1 1 25%;
-
-lex-direction: column;
-align-items: center;
-text-align: center;
-justify-content: center;
 }
 
 img{
